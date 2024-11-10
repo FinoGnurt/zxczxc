@@ -1,4 +1,3 @@
-<body>
 <h1 class="title">Object.keys() Method in JavaScript</h1>
 <p>Phương thức này trả về một mảng các tên thuộc tính riêng của đối tượng đã cho.</p>
 
@@ -51,5 +50,3 @@ const keys4 = Object.getOwnPropertyNames(obj2);
 console.log(keys3); // [] vì 'hidden' không enumerable
 console.log(keys3); // [ 'hidden' ] vì getOwnPropertyNames lấy tất cả key dù có enumerable là false hay true
 ```
-
-</body>

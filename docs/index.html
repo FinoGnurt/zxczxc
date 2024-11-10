@@ -11,7 +11,7 @@
     <!-- Nơi hiển thị nội dung Markdown -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-      fetch("guide.md")
+      fetch("./guide.md")
         .then((response) => response.text())
         .then((text) => {
           document.getElementById("content").innerHTML = marked(text);

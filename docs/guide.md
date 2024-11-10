@@ -13,11 +13,11 @@ const keys = Object.keys(person);
 console.log(keys); // Output: ["name", "age", "country"]
 ```
 
-<p>
-Lưu ý:
- </br> + Chỉ trả về các khóa enumerable: Object.keys() chỉ trả về các thuộc tính có thể lặp qua được (enumerable). Nếu thuộc tính có enumerable: false, nó sẽ không xuất hiện trong kết quả.
- </br> + Không bao gồm các thuộc tính kế thừa từ prototype: Object.keys() chỉ trả về các thuộc tính của chính đối tượng (không bao gồm thuộc tính kế thừa từ prototype).
-</p>
+
+-Lưu ý:
+  -Chỉ trả về các khóa enumerable: Object.keys() chỉ trả về các thuộc tính có thể lặp qua được (enumerable). Nếu thuộc tính có enumerable: false, nó sẽ không xuất hiện trong kết quả.
+  -Không bao gồm các thuộc tính kế thừa từ prototype: Object.keys() chỉ trả về các thuộc tính của chính đối tượng (không bao gồm thuộc tính kế thừa từ prototype).
+
 
 <p>
   So sánh với các phương thức khác:

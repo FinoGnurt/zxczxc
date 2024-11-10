@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../private/styles.css" />
-
 <style>
   /* Cập nhật chung cho body */
 body {

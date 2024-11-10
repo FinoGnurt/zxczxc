@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Markdown File</title>
+    <link rel="stylesheet" href="../public/key.md" />
+    <!-- Đưa đường dẫn đến file CSS -->
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      fetch("path/to/your/markdown-file.md")
+        .then((response) => response.text())
+        .then((text) => {
+          document.getElementById("content").innerHTML = marked(text);
+        });
+    </script>
+  </body>
+</html>

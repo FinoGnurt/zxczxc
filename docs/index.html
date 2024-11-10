@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Markdown File</title>
-    <link rel="stylesheet" href="../private/styles.css" />
-    <!-- Đưa đường dẫn đến file CSS -->
+    <title>Markdown with Custom CSS</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="content"></div>
+    <!-- Nơi hiển thị nội dung Markdown -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-      fetch("./key.md")
+      fetch("key.md")
         .then((response) => response.text())
         .then((text) => {
           document.getElementById("content").innerHTML = marked(text);

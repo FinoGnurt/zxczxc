@@ -1,23 +1,12 @@
-/* Cấu hình chung cho các chế độ */
+/* Cập nhật chung cho body */
 body {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: "Arial", sans-serif; /* Thêm font đẹp hơn */
+  font-size: 16px; /* Đặt cỡ chữ mặc định cho dễ đọc */
+  line-height: 1.6; /* Tăng khoảng cách dòng để dễ nhìn */
   margin: 0;
   padding: 0;
-  transition: background-color 0.3s, color 0.3s; /* Thêm hiệu ứng chuyển đổi */
-}
-
-/* Màu nền và màu chữ cho chế độ sáng (Light Mode) */
-body.lightmode {
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-/* Màu nền và màu chữ cho chế độ tối (Dark Mode) */
-body.darkmode {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
+  color: #333; /* Màu chữ tối để dễ đọc */
 }
 
 /* Căn giữa tiêu đề */
@@ -25,43 +14,43 @@ body.darkmode {
   text-align: center;
   font-size: 2.5em;
   margin-top: 20px;
-  color: #4caf50;
-  text-transform: uppercase;
+  color: #4caf50; /* Màu xanh lá cho tiêu đề */
+  text-transform: uppercase; /* Chữ in hoa */
 }
 
 /* Định dạng cho đoạn văn */
 p {
-  font-size: 1.2em;
-  margin: 15px 0;
-  padding: 0 10px;
-  text-align: justify;
+  font-size: 1.2em; /* Cỡ chữ hơi lớn hơn cho đoạn văn */
+  margin: 15px 0; /* Khoảng cách giữa các đoạn văn */
+  padding: 0 10px; /* Thêm padding để tạo khoảng cách với viền */
+  text-align: justify; /* Canh đều các đoạn văn */
 }
 
 /* Định dạng cho h3 */
 .text_h3 {
   font-size: 1.5em;
   font-weight: bold;
-  margin-top: 30px;
-  border-bottom: 2px solid #4caf50;
+  margin-top: 30px; /* Khoảng cách trên cho rõ ràng */
+  border-bottom: 2px solid #4caf50; /* Dòng dưới màu xanh lá */
   padding-bottom: 10px;
-  color: #4caf50;
+  color: #4caf50; /* Màu chữ xanh lá cho tiêu đề h3 */
 }
 
 /* Chỉnh sửa cho mã JavaScript */
 pre {
-  background-color: #2d2d2d;
-  color: #f8f8f2;
-  padding: 15px;
-  border-radius: 5px;
-  overflow-x: auto;
-  font-family: "Courier New", monospace;
-  margin: 20px 0;
-  line-height: 1.4;
+  background-color: #2d2d2d; /* Nền tối cho mã */
+  color: #f8f8f2; /* Chữ màu sáng */
+  padding: 15px; /* Padding trong mã */
+  border-radius: 5px; /* Góc bo tròn */
+  overflow-x: auto; /* Cho phép cuộn ngang nếu mã dài */
+  font-family: "Courier New", monospace; /* Font monospace cho mã */
+  margin: 20px 0; /* Khoảng cách từ trên và dưới */
+  line-height: 1.4; /* Tăng khoảng cách dòng cho dễ đọc */
 }
 
-/* Hiệu ứng cho chế độ sáng và tối */
+/* Thêm hiệu ứng hover cho các thẻ h3 */
 .text_h3:hover {
-  color: #fff;
-  background-color: #4caf50;
-  transition: all 0.3s ease;
+  color: #fff; /* Màu chữ trắng khi hover */
+  background-color: #4caf50; /* Màu nền khi hover */
+  transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
 }

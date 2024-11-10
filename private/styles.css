@@ -5,8 +5,8 @@ body {
   line-height: 1.6; /* Tăng khoảng cách dòng để dễ nhìn */
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
-  color: #333; /* Màu chữ tối để dễ đọc */
+  background-color: #121212; /* Nền tối */
+  color: #e0e0e0; /* Màu chữ sáng để dễ đọc trên nền tối */
 }
 
 /* Căn giữa tiêu đề */
@@ -24,6 +24,7 @@ p {
   margin: 15px 0; /* Khoảng cách giữa các đoạn văn */
   padding: 0 10px; /* Thêm padding để tạo khoảng cách với viền */
   text-align: justify; /* Canh đều các đoạn văn */
+  color: #b0b0b0; /* Màu chữ sáng nhẹ cho đoạn văn */
 }
 
 /* Định dạng cho h3 */

@@ -1,5 +1,66 @@
 <link rel="stylesheet" href="../private/styles.css" />
 
+<style>
+  /* Cập nhật chung cho body */
+body {
+  font-family: "Arial", sans-serif; /* Thêm font đẹp hơn */
+  font-size: 16px; /* Đặt cỡ chữ mặc định cho dễ đọc */
+  line-height: 1.6; /* Tăng khoảng cách dòng để dễ nhìn */
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Nền tối */
+  color: #e0e0e0; /* Màu chữ sáng để dễ đọc trên nền tối */
+}
+
+/* Căn giữa tiêu đề */
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #4caf50; /* Màu xanh lá cho tiêu đề */
+  text-transform: uppercase; /* Chữ in hoa */
+}
+
+/* Định dạng cho đoạn văn */
+p {
+  font-size: 1.2em; /* Cỡ chữ hơi lớn hơn cho đoạn văn */
+  margin: 15px 0; /* Khoảng cách giữa các đoạn văn */
+  padding: 0 10px; /* Thêm padding để tạo khoảng cách với viền */
+  text-align: justify; /* Canh đều các đoạn văn */
+  color: #b0b0b0; /* Màu chữ sáng nhẹ cho đoạn văn */
+}
+
+/* Định dạng cho h3 */
+.text_h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 30px; /* Khoảng cách trên cho rõ ràng */
+  border-bottom: 2px solid #4caf50; /* Dòng dưới màu xanh lá */
+  padding-bottom: 10px;
+  color: #4caf50; /* Màu chữ xanh lá cho tiêu đề h3 */
+}
+
+/* Chỉnh sửa cho mã JavaScript */
+pre {
+  background-color: #2d2d2d; /* Nền tối cho mã */
+  color: #f8f8f2; /* Chữ màu sáng */
+  padding: 15px; /* Padding trong mã */
+  border-radius: 5px; /* Góc bo tròn */
+  overflow-x: auto; /* Cho phép cuộn ngang nếu mã dài */
+  font-family: "Courier New", monospace; /* Font monospace cho mã */
+  margin: 20px 0; /* Khoảng cách từ trên và dưới */
+  line-height: 1.4; /* Tăng khoảng cách dòng cho dễ đọc */
+}
+
+/* Thêm hiệu ứng hover cho các thẻ h3 */
+.text_h3:hover {
+  color: #fff; /* Màu chữ trắng khi hover */
+  background-color: #4caf50; /* Màu nền khi hover */
+  transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+</style>
+
 <body>
 <h1 class="title">Object.keys() Method in JavaScript</h1>
 <p>Phương thức này trả về một mảng các tên thuộc tính riêng của đối tượng đã cho.</p>
